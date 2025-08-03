@@ -55,14 +55,6 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
       api.sendMessage(heart, threadID, messageID);
     api.setMessageReaction("😮", event.messageID, (err) => {}, true)
             }
-
- if(react.includes("mahim") || react.includes("hey"))  || react.includes("hi"))  || react.includes("hello"))  || react.includes("💔"))  || react.includes("😅"))  || react.includes("😁"))  || react.includes("🥹"))  || react.includes("sorry"))  || react.includes("hmm"))  || react.includes("na"))  || react.includes("accha"))  || react.includes("bye"))  || react.includes("good"))  || react.includes("valo"))  || react.includes("sobai"))  || react.includes("gc"))  || react.includes("group"))  || react.includes("ki"))  || react.includes("oh"))  || react.includes("ok"))  || react.includes("hahaha"))  || react.includes("tumi"))  || react.includes("tui"))  || react.includes("oi"))  {
-      var heart = {
-        body: ""
-      }
-      api.sendMessage(heart, threadID, messageID);
-    api.setMessageReaction("🍒", event.messageID, (err) => {}, true)
-            }
         }
   module.exports.run = function({ api, event, client, __GLOBAL }) {
 
