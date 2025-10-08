@@ -23,7 +23,7 @@ const audioList = [
 module.exports.run = async ({ api, event, args }) => {
   try {
     // React with heart to user's message
-    api.setMessageReaction("❤️", event.messageID, () => {}, true);
+    api.setMessageReaction("🎶", event.messageID, () => {}, true);
 
     // Get the audio number from user input
     const audioNumber = parseInt(args[0], 10);
@@ -46,7 +46,7 @@ module.exports.run = async ({ api, event, args }) => {
     // Send the audio file
     api.sendMessage(
       {
-        body: `Here's your requested audio #${audioNumber}`,
+        body: ``,
         attachment: fs.createReadStream(tempFilePath)
       },
       event.threadID,
