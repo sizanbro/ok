@@ -16,7 +16,7 @@ const audioList = [
   // Add your audio URLs here. Example:
   "https://pouch.jumpshare.com/preview/fsqxfaEsW8Sn9rtE_7_qx50_kq3dCQdiVHfIlzibVazKzSJb35DfTLfjccJTubia_HnNUtncDu9zNvBvBenINu9xINQB0UpsBzdCr0Sj8rJPRQqBJhVDCms4wCKn1LNurU-EJTdqU9XWhGkS7j3NCm6yjbN-I2pg_cnoHs_AmgI.mp3",
   "https://archive.org/download/mahimcraft_1759930943_djkhairul/djkhairul.mp3",
-  "https://yourdomain.com/audio3.mp3"
+  "https://archive.org/download/mahimcraft_1760063352_Facebook1141276687351767/Facebook_1141276687351767.mp3"
   // etc.
 ];
 
